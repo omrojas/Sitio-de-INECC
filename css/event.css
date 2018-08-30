@@ -227,10 +227,19 @@
     }
 }
 
+#subevent-title {
+    font-weight: 700;
+    color: hsl(0, 0%, 13%);
+}
+
 .location {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
     padding: 4px 8px;
     margin: 0px;
-    width: 20%;
+    margin-top: 18px;
+    width: 14%;
     text-align: right;
     height: 34px;
     background: #1B3039;
@@ -238,13 +247,28 @@
 
 .location p {
     display: inline-block;
-    color: green;
-    font-weight: bold;
+    color: #00C6A6;
+    margin-left: 2px;
 }
 
 
 .pin {
     width: 16px;
     display: inline-block;
+}
+
+#little-titles {
+    white-space: nowrap; 
+    color: hsl(0,0%,45%)
+}
+
+#important-titles {
+    font-weight: 700;
+}
+
+#normal-text {
+    font-size: 1em; 
+    white-space: nowrap; 
+    color: hsl(0,0%,29%)
 }
 
