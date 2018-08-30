@@ -1,3 +1,4 @@
+
 /* Principal Event Title */
 
     /* Mobile Version */
@@ -225,3 +226,25 @@
     margin-right: 28px;
     }
 }
+
+.location {
+    padding: 4px 8px;
+    margin: 0px;
+    width: 20%;
+    text-align: right;
+    height: 34px;
+    background: #1B3039;
+}
+
+.location p {
+    display: inline-block;
+    color: green;
+    font-weight: bold;
+}
+
+
+.pin {
+    width: 16px;
+    display: inline-block;
+}
+
