@@ -164,162 +164,429 @@
                 </div>
                 
         <div id="accordion">
-            <div class="card">
-                <div class="card-header" id="headingOne">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <!------------------------------- Día 1 ----------------------------------------->
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"  aria-expanded="true" aria-controls="collapseOne">
                           Día 1 - Lunes, 17 de septiembre
-                        </button>
-                      </h5>
-                 </div>
+                </button>
+              </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Horario </th>
+                        <th scope="col">Detalles del evento</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row"> 8:45 - 9:20</th>
+                          <td> 
+                          <!-- Título del subevento -->
+                          <h5 id="subevent-title"> Inauguración </h5>
+                          <!-- Div del lugar del subevento -->
+                          <div class="location container">
+                            <img class="pin" src="svg/pin.svg">
+                            <p> Patio Principal <p> 
+                          </div>
+                          <!-- Div de la tabla de detalles del subevento -->
+                          <br>
+                          <div class="table-responsive">
+                            <table class="table">
 
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                    <div class="card-body">
-                      <div class="table-responsive">
-                        <table class="table">
-                            <thead>
-                              <tr>
-                                <th scope="col">Horario </th>
-                                <th scope="col">Detalles del evento</th>
-              
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <th scope="row"> 8:45 - 9:20</th>
-                                <td> 
-                                  <!-- Título del subevento -->
-                                  <h5 id="subevent-title"> Inauguración </h5>
-                                  <!-- Div del lugar del subevento -->
-                                  <div class="location container">
-                                    <img class="pin" src="svg/pin.svg">
-                                    <p> Patio Principal <p> 
-                                  </div>
-                                  <!-- Div de la tabla de detalles del subevento -->
-                                  <br>
-                                  <div class="table-responsive">
-                                        <table class="table">
+                              <p id="little-titles"> Ponentes: </p>
 
-                                          <p id="little-titles"> Ponentes: </p>
+                              <h6 id="important-titles">Lic. Silvia Singer Sochet </h6> 
+                              <p id="normal-text">Directora General del Museo Interactivo de Economía  (MIDE) </p> 
 
-                                          <h6 id="important-titles">Lic. Silvia Singer Sochet </h6> 
-                                          <p id="normal-text">Directora General del Museo Interactivo de Economía  (MIDE) </p> 
+                              <h6 id="important-titles">Dra. Amparo Martínez Arroyo</h6> 
+                              <p id="normal-text">Directora General  del Instituto Nacional de Ecología y Cambio Climático  (INECC) </p> 
 
-                                          <h6 id="important-titles">Dra. Amparo Martínez Arroyo</h6> 
-                                          <p id="normal-text">Directora General  del Instituto Nacional de Ecología y Cambio Climático  (INECC) </p> 
+                              <h6 id="important-titles">Katyna Argueta</h6> 
+                              <p id="normal-text">Directora de País del Programa de Naciones Unidas para el Desarrollo  (PNUD) </p> 
 
-                                          <h6 id="important-titles">Katyna Argueta</h6> 
-                                          <p id="normal-text">Directora de País del Programa de Naciones Unidas para el Desarrollo  (PNUD) </p> 
+                              <h6 id="important-titles">Ing. Rafael Pacchiano </h6> 
+                              <p id="normal-text">Secretario de Medio Ambiente y Recursos Naturales  (SEMARNAT) </p>
 
-                                          <h6 id="important-titles">Ing. Rafael Pacchiano </h6> 
-                                          <p id="normal-text">Secretario de Medio Ambiente y Recursos Naturales  (SEMARNAT) </p>
+                              <p id="little-titles"> Maestro de ceremonias: </p>
 
-                                          <p id="little-titles"> Maestro de ceremonias: </p>
+                              <h6 id="important-titles">Lic. Rodrigo Fernández</h6> 
+                              <p id="normal-text">Director de Comunicación Social y Divulgación INECC  </p>
 
-                                          <h6 id="important-titles">Lic. Rodrigo Fernández</h6> 
-                                          <p id="normal-text">Director de Comunicación Social y Divulgación INECC  </p>
-
-                                        </table>
-                                      </div>  
-                                </td>
-                              </tr>
-                              <tr>
-                                <th scope="row">9:30 - 2:30</th>
-                                <td>
-                                  <!-- Título del subevento -->
-                                  <h5 id="subevent-title"> Presentación de la Sexta Comunicación Nacional a miembros del Sistema Nacional de Cambio Climático e invitados especiales. </h5>
-                                  <!-- Div del lugar del subevento -->
-                                  <div class="location container">
-                                    <img class="pin" src="svg/pin.svg">
-                                    <p> Patio Principal <p> 
-                                  </div> 
-                                </td>
-                              </tr>
-                              <tr>
-                                <th scope="row">9:45 -2:30</th>
-                                <td>
-                                  <!-- Título del subevento -->
-                                  <h5 id="subevent-title"> Taller para medios de comunicación y periodistas </h5>
-                                  <!-- Div del lugar del subevento -->
-                                  <div class="location container">
-                                    <img class="pin" src="svg/pin.svg">
-                                    <p> Salón Karl Marx <p> 
-                                  </div>
-                                  <!-- Div de la tabla de detalles del subevento -->
-                                  <br>
-                                  <div class="table-responsive">
-                                        <table class="table">
-
-                                          <p id="little-titles"> Temas </p>
-
-                                          <h6 id="important-titles">¿Qué es la Sexta Comunicación Nacional?</h6> 
-                                          <p id="normal-text">Logros y retos en la agenda climática nacional </p> 
-
-                                          <h6 id="important-titles">Presentación del Atlas Nacional de Vulnerabilidad al Cambio Climático</h6>
-                                          <br> 
-
-                                          <h6 id="important-titles">Presentación de la página web de país:  México ante el Cambio Climático</h6>
-                                          <br>
-
-                                          <h6 id="important-titles">Resultados de la Evaluación a las Políticas Públicas sobre el Cambo Climático</h6> 
-                                          <br>
-
-                                          <h6 id="important-titles">Presentación de la plataforma didáctica sobre el cambio climático</h6> 
-                                          <p id="normal-text">El Cambio Climátido de Frente y recorrido por la exposición sobre Cambio Climátido MIDE - INECC </p>
-
-                                        </table>
-                                      </div>  
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
+                            </table>
+                          </div>  
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9:30 - 2:30</th>
+                        <td>
+                          <!-- Título del subevento -->
+                          <h5 id="subevent-title"> Presentación de la Sexta Comunicación Nacional a miembros del Sistema Nacional de Cambio Climático e invitados especiales. </h5>
+                          <!-- Div del lugar del subevento -->
+                          <div class="location container">
+                            <img class="pin" src="svg/pin.svg">
+                            <p> Patio Principal <p> 
+                          </div> 
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9:45 -2:30</th>
+                        <td>
+                        <!-- Título del subevento -->
+                        <h5 id="subevent-title"> Taller para medios de comunicación y periodistas </h5>
+                        <!-- Div del lugar del subevento -->
+                        <div class="location container">
+                          <img class="pin" src="svg/pin.svg">
+                          <p> Salón Karl Marx <p> 
                         </div>
-                    </div>
-                </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingTwo">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Día 2 - Martes, 18 de septiembre
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                      <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingThree">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <!-- Div de la tabla de detalles del subevento -->
+                        <br>
+                        <div class="table-responsive">
+                          <table class="table">
+
+                            <p id="little-titles"> Temas </p>
+
+                            <h6 id="important-titles">¿Qué es la Sexta Comunicación Nacional?</h6> 
+                            <p id="normal-text">Logros y retos en la agenda climática nacional </p> 
+
+                            <h6 id="important-titles">Presentación del Atlas Nacional de Vulnerabilidad al Cambio Climático</h6>
+                            <br> 
+
+                            <h6 id="important-titles">Presentación de la página web de país:  México ante el Cambio Climático</h6>
+                            <br>
+
+                            <h6 id="important-titles">Resultados de la Evaluación a las Políticas Públicas sobre el Cambo Climático</h6> 
+                            <br>
+
+                            <h6 id="important-titles">Presentación de la plataforma didáctica sobre el cambio climático</h6> 
+                            <p id="normal-text">El Cambio Climátido de Frente y recorrido por la exposición sobre Cambio Climátido MIDE - INECC </p>
+                          </table>
+                        </div>  
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-------------------------------------- Día 2 ------------------------------------->  
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Día 2 - Martes, 18 de septiembre
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Horario </th>
+                        <th scope="col">Detalles del evento</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row"> 8:45 - 9:00</th>
+                          <td> 
+                          <!-- Título del subevento -->
+                          <h5 id="subevent-title"> Registro de asistentes </h5>
+                          <!-- Div del lugar del subevento -->
+                          <div class="location container">
+                            <img class="pin" src="svg/pin.svg">
+                            <p> Patio Principal <p> 
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9:30 - 2:30</th>
+                        <td>
+                          <!-- Título del subevento -->
+                          <h5 id="subevent-title"> Presentación de la Sexta Comunicación Nacional a miembros del Sistema Nacional de Cambio Climático e invitados especiales. </h5>
+                          <!-- Div del lugar del subevento -->
+                          <div class="location container">
+                            <img class="pin" src="svg/pin.svg">
+                            <p> Patio Principal <p> 
+                          </div> 
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9:45 -2:30</th>
+                        <td>
+                        <!-- Título del subevento -->
+                        <h5 id="subevent-title"> Taller para medios de comunicación y periodistas </h5>
+                        <!-- Div del lugar del subevento -->
+                        <div class="location container">
+                          <img class="pin" src="svg/pin.svg">
+                          <p> Salón Karl Marx <p> 
+                        </div>
+                        <!-- Div de la tabla de detalles del subevento -->
+                        <br>
+                        <div class="table-responsive">
+                          <table class="table">
+
+                            <p id="little-titles"> Temas </p>
+
+                            <h6 id="important-titles">¿Qué es la Sexta Comunicación Nacional?</h6> 
+                            <p id="normal-text">Logros y retos en la agenda climática nacional </p> 
+
+                            <h6 id="important-titles">Presentación del Atlas Nacional de Vulnerabilidad al Cambio Climático</h6>
+                            <br> 
+
+                            <h6 id="important-titles">Presentación de la página web de país:  México ante el Cambio Climático</h6>
+                            <br>
+
+                            <h6 id="important-titles">Resultados de la Evaluación a las Políticas Públicas sobre el Cambo Climático</h6> 
+                            <br>
+
+                            <h6 id="important-titles">Presentación de la plataforma didáctica sobre el cambio climático</h6> 
+                            <p id="normal-text">El Cambio Climátido de Frente y recorrido por la exposición sobre Cambio Climátido MIDE - INECC </p>
+                          </table>
+                        </div>  
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!------------------------------------- Día 3 ---------------------------------------->
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                           Día 3 - Miércoles, 19 de septiembre
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                      <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingFour">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Horario </th>
+                        <th scope="col">Detalles del evento</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row"> 8:45 - 9:20</th>
+                          <td> 
+                          <!-- Título del subevento -->
+                          <h5 id="subevent-title"> Inauguración </h5>
+                          <!-- Div del lugar del subevento -->
+                          <div class="location container">
+                            <img class="pin" src="svg/pin.svg">
+                            <p> Patio Principal <p> 
+                          </div>
+                          <!-- Div de la tabla de detalles del subevento -->
+                          <br>
+                          <div class="table-responsive">
+                            <table class="table">
+
+                              <p id="little-titles"> Ponentes: </p>
+
+                              <h6 id="important-titles">Lic. Silvia Singer Sochet </h6> 
+                              <p id="normal-text">Directora General del Museo Interactivo de Economía  (MIDE) </p> 
+
+                              <h6 id="important-titles">Dra. Amparo Martínez Arroyo</h6> 
+                              <p id="normal-text">Directora General  del Instituto Nacional de Ecología y Cambio Climático  (INECC) </p> 
+
+                              <h6 id="important-titles">Katyna Argueta</h6> 
+                              <p id="normal-text">Directora de País del Programa de Naciones Unidas para el Desarrollo  (PNUD) </p> 
+
+                              <h6 id="important-titles">Ing. Rafael Pacchiano </h6> 
+                              <p id="normal-text">Secretario de Medio Ambiente y Recursos Naturales  (SEMARNAT) </p>
+
+                              <p id="little-titles"> Maestro de ceremonias: </p>
+
+                              <h6 id="important-titles">Lic. Rodrigo Fernández</h6> 
+                              <p id="normal-text">Director de Comunicación Social y Divulgación INECC  </p>
+
+                            </table>
+                          </div>  
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9:30 - 2:30</th>
+                        <td>
+                          <!-- Título del subevento -->
+                          <h5 id="subevent-title"> Presentación de la Sexta Comunicación Nacional a miembros del Sistema Nacional de Cambio Climático e invitados especiales. </h5>
+                          <!-- Div del lugar del subevento -->
+                          <div class="location container">
+                            <img class="pin" src="svg/pin.svg">
+                            <p> Patio Principal <p> 
+                          </div> 
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9:45 -2:30</th>
+                        <td>
+                        <!-- Título del subevento -->
+                        <h5 id="subevent-title"> Taller para medios de comunicación y periodistas </h5>
+                        <!-- Div del lugar del subevento -->
+                        <div class="location container">
+                          <img class="pin" src="svg/pin.svg">
+                          <p> Salón Karl Marx <p> 
+                        </div>
+                        <!-- Div de la tabla de detalles del subevento -->
+                        <br>
+                        <div class="table-responsive">
+                          <table class="table">
+
+                            <p id="little-titles"> Temas </p>
+
+                            <h6 id="important-titles">¿Qué es la Sexta Comunicación Nacional?</h6> 
+                            <p id="normal-text">Logros y retos en la agenda climática nacional </p> 
+
+                            <h6 id="important-titles">Presentación del Atlas Nacional de Vulnerabilidad al Cambio Climático</h6>
+                            <br> 
+
+                            <h6 id="important-titles">Presentación de la página web de país:  México ante el Cambio Climático</h6>
+                            <br>
+
+                            <h6 id="important-titles">Resultados de la Evaluación a las Políticas Públicas sobre el Cambo Climático</h6> 
+                            <br>
+
+                            <h6 id="important-titles">Presentación de la plataforma didáctica sobre el cambio climático</h6> 
+                            <p id="normal-text">El Cambio Climátido de Frente y recorrido por la exposición sobre Cambio Climátido MIDE - INECC </p>
+                          </table>
+                        </div>  
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-------------------------------------- Día 4 --------------------------------------->
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                           Día 4 - Jueves, 20 de septiembre
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                      <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="card-body">
+              <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Horario </th>
+                        <th scope="col">Detalles del evento</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row"> 8:45 - 9:20</th>
+                          <td> 
+                          <!-- Título del subevento -->
+                          <h5 id="subevent-title"> Inauguración </h5>
+                          <!-- Div del lugar del subevento -->
+                          <div class="location container">
+                            <img class="pin" src="svg/pin.svg">
+                            <p> Patio Principal <p> 
+                          </div>
+                          <!-- Div de la tabla de detalles del subevento -->
+                          <br>
+                          <div class="table-responsive">
+                            <table class="table">
+
+                              <p id="little-titles"> Ponentes: </p>
+
+                              <h6 id="important-titles">Lic. Silvia Singer Sochet </h6> 
+                              <p id="normal-text">Directora General del Museo Interactivo de Economía  (MIDE) </p> 
+
+                              <h6 id="important-titles">Dra. Amparo Martínez Arroyo</h6> 
+                              <p id="normal-text">Directora General  del Instituto Nacional de Ecología y Cambio Climático  (INECC) </p> 
+
+                              <h6 id="important-titles">Katyna Argueta</h6> 
+                              <p id="normal-text">Directora de País del Programa de Naciones Unidas para el Desarrollo  (PNUD) </p> 
+
+                              <h6 id="important-titles">Ing. Rafael Pacchiano </h6> 
+                              <p id="normal-text">Secretario de Medio Ambiente y Recursos Naturales  (SEMARNAT) </p>
+
+                              <p id="little-titles"> Maestro de ceremonias: </p>
+
+                              <h6 id="important-titles">Lic. Rodrigo Fernández</h6> 
+                              <p id="normal-text">Director de Comunicación Social y Divulgación INECC  </p>
+
+                            </table>
+                          </div>  
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9:30 - 2:30</th>
+                        <td>
+                          <!-- Título del subevento -->
+                          <h5 id="subevent-title"> Presentación de la Sexta Comunicación Nacional a miembros del Sistema Nacional de Cambio Climático e invitados especiales. </h5>
+                          <!-- Div del lugar del subevento -->
+                          <div class="location container">
+                            <img class="pin" src="svg/pin.svg">
+                            <p> Patio Principal <p> 
+                          </div> 
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9:45 -2:30</th>
+                        <td>
+                        <!-- Título del subevento -->
+                        <h5 id="subevent-title"> Taller para medios de comunicación y periodistas </h5>
+                        <!-- Div del lugar del subevento -->
+                        <div class="location container">
+                          <img class="pin" src="svg/pin.svg">
+                          <p> Salón Karl Marx <p> 
+                        </div>
+                        <!-- Div de la tabla de detalles del subevento -->
+                        <br>
+                        <div class="table-responsive">
+                          <table class="table">
+
+                            <p id="little-titles"> Temas </p>
+
+                            <h6 id="important-titles">¿Qué es la Sexta Comunicación Nacional?</h6> 
+                            <p id="normal-text">Logros y retos en la agenda climática nacional </p> 
+
+                            <h6 id="important-titles">Presentación del Atlas Nacional de Vulnerabilidad al Cambio Climático</h6>
+                            <br> 
+
+                            <h6 id="important-titles">Presentación de la página web de país:  México ante el Cambio Climático</h6>
+                            <br>
+
+                            <h6 id="important-titles">Resultados de la Evaluación a las Políticas Públicas sobre el Cambo Climático</h6> 
+                            <br>
+
+                            <h6 id="important-titles">Presentación de la plataforma didáctica sobre el cambio climático</h6> 
+                            <p id="normal-text">El Cambio Climátido de Frente y recorrido por la exposición sobre Cambio Climátido MIDE - INECC </p>
+                          </table>
+                        </div>  
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
         
     <p class="col col-complementary" role="complementary">
         <img id="event-logo" src="png/logo-evento.png"/>
