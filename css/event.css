@@ -200,23 +200,25 @@
     }
 
 #fb-logo-share {
-    width: 30%;
+    width: 12%;
     height: auto;
     padding: 2px;
     margin-right: 28px;
+     padding: 5px 5px;
 }
 
 #twitter-logo-share {
-    width: 18%;
+    width: 12%;
     height: auto;
     padding: 2px;
     margin-right: 28px;
+    padding: 6px 5px;
 }
 
 @media (min-width: 700px){
     #fb-logo-share {
     margin-top: 10px;
-    width: 18%;
+    width: 14%;
     height: auto;
     padding: 2px;
     margin-right: 28px;

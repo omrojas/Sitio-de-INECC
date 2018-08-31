@@ -1128,40 +1128,65 @@ article{
     color: #00C6A6;
 }
 
+
+@media (max-width: 700px) {
+     #title{
+        position: absolute;
+         display: inline-block;
+        margin-top: -30px;
+    } 
+}
+
   .links .connect{
     width: 30%;
     flex: 0 0 auto;
-    margin-top: -10.2px;
+
   }
 
 @media (max-width: 700px) {
-    .links .connect {   
+    .links .connect { 
     width: 100%;
     flex: 0 0 auto;
-    margin-top: -10.2px; 
     }  
 }
 
   .links .connect span{
-    display: block;
-    margin-top: 14px;
+    display: inline-block;
+    margin-top: 4px;
     font-size:20px;
+
    }
 
+
+    @media (max-width: 700px) {
+         .links .connect span{
+            margin-top: 4em;
+        }
+    }
+
   .brief-page-info {
+    display: inline-block;
     color: white;
-    margin-top: -40px;
+    height: 6em;
+    margin-top: -6em;
+    position: relative;
+   }
+
+   @media (max-width: 700px) {
+        .brief-page-info {
+            position: relative;
+    top: 5em;
+        }
    }
 
   .links .connect .logo{
-    height:58px;
+    height:54px;
     float: none;
     width: 100%;
    }
 
   .links .connect .title-follow-us-wrapper{
-    padding: 20px 0px 14px 2px;
-    margin-left: em;
+    padding: 0px 0px 14px 2px;
     margin-right: auto;
     width: 100%
    }
@@ -1176,6 +1201,7 @@ article{
     vertical-align: bottom;
     display: inline-block;
     width: 49%;
+
   }
 
 @media (max-width: 700px)
