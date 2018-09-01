@@ -11,6 +11,11 @@ document.getElementById('event-program').innerHTML += '<h5>Programa </h5>';
 
 document.getElementById('program-content-title').innerHTML += '<h6>Participación de México  para lograr los compromisos globales </h6>';
 
+document.getElementById('day1-act1-hour').innerHTML += '8:30 - 9:00';
+document.getElementById('day1-act1-info').innerHTML += '8:30 - 9:00';
+
+
+
 
 
 
