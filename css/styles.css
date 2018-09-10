@@ -305,10 +305,11 @@ Exceptions
 
 #book img 
 {	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
     height: 14em;
 
 }
@@ -546,6 +547,16 @@ Wide styles
 	color: black;
 }
 
+
+.section h4
+{
+	margin-top: 1em;
+}
+
+.section img 
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 
 
